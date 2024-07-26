@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+
+    <id>tikvadev.CleanArchitecture.Template</id>
+    
+    <version>8.0.0</version>
+    
+    <title>Clean Architecture Web API Solution Template</title>
+    
+    <authors>tikvadev</authors>
+    
+    <description>Clean Architecture WebAPI Template for .NET 8.</description>
+    
+    <summary>
+      A Clean Architecture WebAPI Template for creating solutions with ASP.NET Core 8, EF Core 8, MediatR, Fluent Validation, and xUnit.
+    </summary>
+    
+    <releaseNotes>
+      Initial release of Clean Architecture WebAPI Template.
+    </releaseNotes>
+    
+    <projectUrl>https://github.com/mtikvica/CleanArchitectureTemplate</projectUrl>
+    <repository type="git" url="https://github.com/mtikvica/CleanArchitectureTemplate.git" branch="main" />
+
+    <license type="expression">MIT</license>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    
+    <tags>clean-architecture project template csharp dotnet webapi</tags>
+
+    <readme>README.md</readme>
+
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+
+  </metadata>
+
+  <files>
+    <file src="README.md" />
+    <file src=".\**" target="content" exclude="**\node_modules\**;**\bin\**;**\obj\**;.\.vs\**;.\.vscode\**;content\Directory.Build.*;.\.git\**;.\.github\icon.png;.\LICENSE;.\README.md;" />
+  </files>
+
+</package>
