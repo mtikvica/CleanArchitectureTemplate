@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "tikvadev",
+  "classifications": [ "WebAPI", "Clean Architecture" ],
+  "name": "Clean Architecture Web API Solution Template",
+  "description": "Clean Architecture template solution with Domain, Application, Infrastructure, and Web/API layers.",
+  "identity": "tikvadev.CleanArchitecture.Template",
+  "shortName": "cleanarch",
+  "sourceName": "CleanArchitecture",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
