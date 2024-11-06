@@ -10,7 +10,6 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDatabase(configuration);
-        services.AddServices();
         services.AddHealthChecks(configuration);
 
         return services;
@@ -22,11 +21,6 @@ public static class DependencyInjection
 
         services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
 
-        return services;
-    }
-
-    private static IServiceCollection AddServices(this IServiceCollection services)
-    {
         return services;
     }
 
